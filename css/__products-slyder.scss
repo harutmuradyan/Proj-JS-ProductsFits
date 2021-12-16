@@ -1,0 +1,51 @@
+@import '__constatnt.scss';
+
+.products-slider{
+    .btn-product {
+        margin-top:100px;
+        border-radius:20px;
+        width: 280px;
+        height: 305px;
+        border:none;
+        span {
+            width: 182px;
+            height: 182px;
+            border-radius:100px;
+            background-color:$blue;
+            display: block;
+            position: relative;
+            bottom:100px;
+            left: 50px;
+            img {
+                margin-top: 30px;    
+            }
+        }
+        
+
+        p {
+            height: 30px;
+            text-transform: uppercase;
+            color:$blue;
+            font-size: 24px;
+            position: relative;
+            bottom: 50px;
+        }
+        a {
+            display: block;
+            position: relative;
+            width: 207px;
+            border-radius:20px;
+            color:$background;
+            background-color:$pink;
+            border:none;
+            text-transform: uppercase;
+            text-decoration: none;
+            margin-left: 30px;
+            padding: 30px 0px 30px 0px;
+            font-size: 14px;
+            bottom: 10px;
+            box-shadow: 5px 5px $blue;
+        }
+    }
+}
+

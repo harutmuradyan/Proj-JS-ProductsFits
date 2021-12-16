@@ -1,0 +1,45 @@
+@import '__constatnt.scss';
+
+.header{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    .header__nav{
+        .header__nav__bar{
+            list-style-type: none;
+
+            .header__nav__bar__item {
+                
+                .btn-sent-message {
+                    width: 46px;
+                    height: 35px;
+                    border:none;
+                    background-color:$background;
+                }
+
+                .btn-tell {
+                    width: 160px;
+                    display: flex;
+                    border: none;
+                    background-color:$background;
+
+                    p {
+                        margin-left: 10px;
+                        color: $blue;
+                        margin-top: 10px;
+                    }
+                }
+
+                .btn-start {
+                    float: right;
+                    width: 187px;
+                    height: 63px;
+                    border-radius: 15px;
+                    border: none;
+                    background-color:$pink;
+                    color:$background;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}

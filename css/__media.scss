@@ -1,0 +1,266 @@
+@import '__constatnt.scss';
+
+@media screen and (max-width: $min) {
+    .container {
+        width: 100%;
+    }
+    .header {
+        .btn-logo {
+            flex-basis: 100%;
+            width: 320px;
+            display: flex;
+            justify-content: center;
+        }
+        .btn-sent-message {
+            display: none;
+        }
+        .btn-start {
+            display: none;
+        }
+        #btn-tell {
+            display: none;
+        }
+    }
+    .start-project {
+        button {
+            position: relative;
+            bottom: 120px;
+            z-index: 1;
+            left: 40px;
+        }
+        img {
+            position:absolute;
+            width: 560px;
+            height: 400px;
+            right: 0px;
+            top: 140px;
+        }
+        h1 {
+            text-align: center;
+            margin-left: 20px;
+        }
+        pre {
+            padding-bottom: 200px;
+        }
+    }
+    .companies {
+        display: none;
+    }
+    .category {
+        display: none;
+    }
+    .products {
+        display: none;
+    }
+    .slider {
+        display: none;
+    }
+    .interview-start{
+        padding: 80px 0px 140px 0px;
+        .interview-start__left {
+            img {
+                margin: 0px 20px 0px 20px;
+                position: relative;
+                width: 360px;
+            }
+        }
+        .interview-start__reight {
+            h1 {
+                text-align: center;
+            }
+            
+        }
+        #iterview-none2 {
+            display: none;
+        }
+        #intrview-btn-none2 {
+            display: none;
+        }
+    }
+    .submit-form{
+        .submit-form__content__left {
+            img {
+                position:relative;
+                left: 60px;
+            }
+        }
+        .submit-form__content__reghit {
+            button {
+                margin-top: 40px;
+                margin-left: 0px;
+            }
+        }
+    }
+    .footer {
+        background-color:$background;
+        margin: 0px 5px 0px 5px;
+        .btn-logo {
+            display: none;
+        }
+        .linq {
+            display: flex;
+            justify-content: center;
+            flex-basis: 100%;
+            margin: 0px 20px 0px 20px;
+            
+            a {
+                margin: 0px 15px 30px 15px;
+                
+            }
+        }
+
+        #info-me-btn1 {
+            background-color:$background;
+            position: relative;
+            flex-basis: 100%;
+            display: flex;
+            justify-content: center;
+            a {
+                background-color:$background;
+            }
+        }
+        #info-me-btn2 {
+            display: none;
+        }
+
+        #faile{
+            display: flex;
+        } 
+        #btn-footer1{
+            flex-basis: 50%;
+            position: relative;
+            right:50px;
+            background-color:$background;
+            button {
+                background-color:$background;
+            }
+        }
+        #btn-footer2 {
+            flex-basis: 50%;
+            display:flex;
+            position: relative;
+            left: 130px;
+            bottom: 45px;
+            background-color:$background;
+            button {
+                background-color:$background;
+            }
+        }
+    }
+    .footer__copyring {
+        background-color:$background;
+        padding-top: 40px;
+    }
+    .companies-slyder {
+        background-color:$blue;
+        height: 100px;
+        
+        #previous2 {
+            position: relative;
+            top: 40px;
+            left: 30px;
+        }
+        #next2 {
+            position: relative;
+            top: 40px;
+            left: 320px;
+        }
+        #slides2{
+            position: relative;
+            bottom: 0px;
+            width: 100%;
+          }
+          
+          .slide2{
+            position: relative;
+            right: 20px;
+            width: 100%;
+            height: 90px;
+            display: flex;
+            justify-content: center;
+            bottom: 20px;
+            a {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+          }
+    }
+    .categorys-slyder {
+        
+        #slides1{
+            position: relative;
+            bottom: 50px;
+            height: 100px;
+            width: 100%;
+          }
+          
+          .slide1{
+            position: absolute;
+            left: 100px;
+          }
+
+        #previous1 {
+            position: relative;
+            top: 60px;
+            left: 50px;
+        }
+        #next1 {
+            position: relative;
+            top: 65px;
+            left: 320px;
+        }
+    }
+    .products-slider {
+        height: 200px;
+        background-color:$background;
+        padding-top: 150px;
+        .background-blue{
+            background-color:$blue;
+            height: 120px;
+            .products__slider-inner {
+                position: relative;
+                bottom: 180px;
+                left: 0px;   
+         
+            }
+
+            #previous3 {
+                position: relative;
+                top: 50px;
+                left:30px;
+            }
+            #next3 {
+                position: relative;
+                top: 50px;
+                left: 320px;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width:$min) and (max-width:$max) {
+    .companies-slyder {
+        display: none;
+    }
+    .categorys-slyder {
+        display: none;
+    }
+    .products-slider {
+        display: none;
+    }
+    .interview-start {
+        #iterview-none1 {
+            display: none;
+        }
+        #intrview-btn-none1 {
+            display: none;
+        }
+    }
+    .footer {
+        #info-me-btn1{
+            display: none;
+        }
+    }
+}

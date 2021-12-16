@@ -1,0 +1,20 @@
+@import "__constatnt.scss";
+
+.submit-form{
+    padding: 120px 0px 80px 0px;
+    button {
+        width: 330px;
+        height: 99px;
+        border-radius:20px;
+        border:none;
+        color: $background;
+        background-color:$pink;
+        text-transform: uppercase;
+        &:hover {
+            box-shadow: 5px 5px $blue;
+        }
+    }
+    img {
+        margin-right: 100px;
+    }
+}

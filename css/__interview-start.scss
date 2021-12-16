@@ -1,0 +1,36 @@
+@import "__constatnt.scss";
+
+.interview-start{
+    padding-bottom: 140px;
+    .interview-start__reight {
+        h1 {
+            font-size: 32px;
+            color: $blue;
+            margin-bottom:27px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        pre {
+            font-size: 14px;
+            margin-bottom: 44px;
+
+            span {
+                font-weight: bold;
+            }
+        }
+
+        button {
+            width: 257px;
+            height: 70px;
+            border-radius:20px;
+            border:none;
+            background-color:$pink;
+            color: $background;
+            text-transform: uppercase;
+            &:hover {
+                box-shadow: 5px 5px $blue;
+            }
+        }
+    }
+}

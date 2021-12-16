@@ -1,0 +1,31 @@
+@import "__constatnt.scss";
+
+.start-project {
+    padding-bottom: 50px;
+    .start-project__content {
+        .start-project__left {
+            h1 {
+                width: 250px;
+                color:$blue;
+                font-size: 32px;
+                margin-bottom: 16px;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+
+            button {
+                margin-top: 50px;
+                width: 232px;
+                height: 70px;
+                color:$background;
+                background-color:$pink;
+                border: none;
+                border-radius: 20px;
+                text-transform: uppercase;
+                &:hover {
+                    box-shadow: 5px 5px $blue ;
+                }
+            }
+        }
+    }
+}

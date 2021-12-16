@@ -1,0 +1,43 @@
+@import '__constatnt.scss';
+
+.footer{
+    background-color:$grey;
+    .footer__content__bar {
+        list-style-type: none;
+        .footer__content__bar__item {
+            margin: 10px 10px 0px 10px ;
+
+            a {
+                color: $blue;
+                text-decoration: none;
+            }
+
+            button {
+                background-color:$grey;
+                border:none;
+
+                p {
+                    color: $blue;
+                    margin-right:10px;
+                }
+            }
+        }
+        #faile{
+            margin-top: 50px;
+            display: flex;
+            button {
+                border-radius:25px;
+                width: 70px;
+                height: 65px;
+                display: flex;
+                background:$gradient;
+                margin-right: 15px;
+                margin-top: 15px;
+                img {
+                    margin-left: 20px;
+                    margin-top: 15px;
+                }
+            }
+        }         
+    }
+}

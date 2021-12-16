@@ -1,0 +1,30 @@
+@import '__constatnt.scss';
+
+.category {
+    padding: 100px 0px 50px 0px;
+    .category__slide__item{
+        button {
+            margin: 10px 10px 10px 10px;
+            width: 195px;
+            height: 164px;
+            border-radius:25px;
+            background-color:$grey;
+            border:none;
+            border-bottom: $blue 5px solid ;
+            text-transform: uppercase;
+            a {
+                font-size: 14px;
+                text-decoration: none;
+                color:black;
+            
+                img {
+                    margin-bottom: 15px;
+                }
+            }
+            &:hover {
+                border-bottom:none;
+                border-top:$blue 5px solid;
+            }
+        }
+    }
+}

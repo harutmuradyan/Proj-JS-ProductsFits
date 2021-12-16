@@ -1,0 +1,15 @@
+@import '__constatnt.scss';
+
+.companies-slyder{
+    background-color:$blue;
+    .btn-categorys{
+        a {
+            position: relative;
+            left: 20px;
+            top: 25px;
+            width: 300px;
+            display: block;
+            padding: 0px 0px 0px 0px;
+        }
+    }
+}
